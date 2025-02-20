@@ -1,8 +1,9 @@
 {
   "name": "@andycacera/signal-store",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A custom schematic to generate the main files of a basic signal store structure",
   "publishConfig": {
+    "access": "public",
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
