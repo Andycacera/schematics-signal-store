@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "SignalStoreFilesSchema",
+  "title": "Generate Basic Store Files",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The full path and base name for the generated store files (e.g., path/to/MyStore)"
+    }
+  },
+  "required": ["name"]
+}

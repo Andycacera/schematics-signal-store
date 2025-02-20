@@ -1,7 +1,10 @@
 {
-  "name": "signal-store",
-  "version": "0.0.0",
-  "description": "A blank schematics",
+  "name": "@andycacera/signal-store",
+  "version": "0.1.0",
+  "description": "A custom schematic to generate the main files of a basic signal store structure",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && jasmine src/**/*_spec.js"
@@ -18,8 +21,10 @@
     "typescript": "~5.7.2"
   },
   "devDependencies": {
-    "@types/node": "^18.18.0",
+    "@ngrx/signals": "18.1.1",
+    "@ngrx/store": "18.1.1",
     "@types/jasmine": "~5.1.0",
+    "@types/node": "^18.18.0",
     "jasmine": "^5.0.0"
   }
 }

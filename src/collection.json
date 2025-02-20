@@ -2,8 +2,9 @@
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
     "signal-store": {
-      "description": "A blank schematic.",
-      "factory": "./signal-store/index#signalStore"
+      "description": "A custom schematic to generate the main files of a basic signal store structure",
+      "factory": "./signal-store/index#signalStore",
+      "schema": "./signal-store/schema.json"
     }
   }
 }
