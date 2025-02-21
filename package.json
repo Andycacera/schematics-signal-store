@@ -1,6 +1,6 @@
 {
-  "name": "@andycacera/signal-store",
-  "version": "0.1.3",
+  "name": "@andycacera/schematics-signal-store",
+  "version": "0.1.0",
   "description": "A custom schematic to generate the main files of a basic signal store structure",
   "publishConfig": {
     "access": "public",
